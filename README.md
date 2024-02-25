@@ -23,7 +23,8 @@ cd weather-temperature-fetcher
 5. The script will fetch and display the current temperature of the specified city.
    example - City: London 7°C
 
-How It Works
+## How It Works
+
 The script utilizes the urllib.request module to make a GET request to wttr.in with the specified city.
 The temperature is extracted from the response using the provided URL format (?format=%t).
 The temperature is then printed to the console.
